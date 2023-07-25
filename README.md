@@ -42,4 +42,5 @@ You can access the web application by opening your web browser and navigating to
 - The application uses React Router for client-side routing, allowing you to navigate between different pages without a full page reload.
 - The frontend makes API calls to the backend to fetch and display data from the database. The backend handles data processing and database interactions using Spring Boot and Spring Data JPA.
 - The Docker Compose file is used to easily set up the PostgreSQL database for development purposes. For production, consider using a real server or Kubernetes to host the database.
+- The form's City field's values are being fetched from another REST API (https://countriesnow.space). To change the country from which to get the cities, change the `CITIES_API_DATE.country` value to your desired country.
 
