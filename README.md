@@ -26,7 +26,7 @@ To run this project locally, follow the steps below:
 
 1. Clone this repository to your local machine.
 2. Open a terminal and navigate to the root directory of the project.
-3. Run the following command to start up the PostgreSQL database using Docker Compose:
+3. Run the following command to start up the PostgreSQL database using Docker Compose:<br>
    `docker-compose up -d`
 4. The PostgreSQL database should now be running on port 5432.
 
